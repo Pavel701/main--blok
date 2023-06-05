@@ -1,0 +1,15 @@
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\bin\Debug\net6.0\main blok.exe
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\bin\Debug\net6.0\main blok.deps.json
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\bin\Debug\net6.0\main blok.runtimeconfig.json
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\bin\Debug\net6.0\main blok.dll
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\bin\Debug\net6.0\main blok.pdb
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\main blok.csproj.AssemblyReference.cache
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\main blok.GeneratedMSBuildEditorConfig.editorconfig
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\main blok.AssemblyInfoInputs.cache
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\main blok.AssemblyInfo.cs
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\main blok.csproj.CoreCompileInputs.cache
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\main blok.dll
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\refint\main blok.dll
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\main blok.pdb
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\main blok.genruntimeconfig.cache
+D:\Павел\Учёба\Разработчик\ДЗ по основному блоку\main blok\obj\Debug\net6.0\ref\main blok.dll
