@@ -1,40 +1,43 @@
-﻿class Program
+﻿
+class Program
 {
     static void Main()
     {
-        // Ввводим первоначальный массив с клавиатуры
-        Console.WriteLine("Введите элементы массива через запятую:");
+        Console.Write("Введите элементы массива через запятую: ");
         string input = Console.ReadLine();
-        string[] original = input.Split(',');
 
-        // Считаем количество строк, подходящих по условию
-        int count = 0;
-        foreach (string str in original)
+        // Разделение введенной строки на элементы массива
+        string[] inputArray = input.Split(',');
+
+        // Создание нового массива
+        string[] newArray = new string[inputArray.Length];
+        int newIndex = 0;
+
+        // Фильтрация элементов исходного массива
+        for (int i = 0; i < inputArray.Length; i++)
         {
-            if (str.Length <= 3)
+            string element = inputArray[i].Trim();
+
+            if (element.Length <= 3)
             {
-                count++;
+                newArray[newIndex] = element;
+                newIndex++;
             }
         }
 
-        // Создаем новый массив нужной длины
-        string[] result = new string[count];
-
-        // Копируем строки из первоначального массива, подходящие по условию
-        int index = 0;
-        foreach (string str in original)
+        // Вывод нового массива в одну строку
+        Console.Write("Новый массив: [");
+        for (int i = 0; i < newIndex; i++)
         {
-            if (str.Length <= 3)
+            Console.Write(newArray[i]);
+
+            // Добавление запятой после каждого элемента, кроме последнего
+            if (i < newIndex - 1)
             {
-                result[index] = str;
-                index++;
+                Console.Write(", ");
             }
         }
+        Console.WriteLine("]");
 
-// Выводим новый массив на экран
-        foreach (string str in result)
-        {
-            Console.WriteLine(str);
-        }
     }
 }
